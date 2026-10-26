@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Randomly Brilliant Uploader</title>
+  <meta name="description" content="Private desktop tool that sends Randomly Brilliant's own short videos to its own TikTok account through TikTok's official Content Posting API.">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <img src="assets/logo.png" alt="Randomly Brilliant logo" width="48" height="48">
+      <a class="brand" href="./">Randomly Brilliant Uploader</a>
+      <nav aria-label="Main">
+        <a href="./" aria-current="page">About</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Randomly Brilliant Uploader</h1>
+    <p class="lead">A small, private desktop tool used by the team behind the Randomly Brilliant channel to send the channel's own short educational videos to the channel's own TikTok account.</p>
+
+    <div class="card">
+      <p><strong>Not a public service.</strong> The tool is not offered, sold or distributed to anyone else. It connects only to TikTok accounts owned by the operator of Randomly Brilliant.</p>
+    </div>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Picks up short videos that the channel has already produced, fact-checked and approved.</li>
+      <li>Checks that each video file is complete and in a format TikTok accepts.</li>
+      <li>Prepares a short caption and a few relevant hashtags from the video's existing title and description.</li>
+      <li>Uploads the video to the TikTok account's inbox through TikTok's official <a href="https://developers.tiktok.com/doc/content-posting-api-reference-upload-video">Content Posting API</a>. The account owner then opens the TikTok app, reviews the draft, chooses its settings and decides whether to post it.</li>
+      <li>Checks the upload status and keeps a local record of each upload, so that no video is sent twice.</li>
+    </ul>
+
+    <h2>What it does not do</h2>
+    <ul>
+      <li>It does not access any account other than the operator's own.</li>
+      <li>It does not read messages, followers, analytics or any other account data.</li>
+      <li>It does not add watermarks or promotional overlays to videos.</li>
+      <li>It does not log in for the user or bypass any TikTok control. Authorization uses TikTok's official Login Kit, and access can be withdrawn at any time from TikTok's app permission settings.</li>
+    </ul>
+
+    <h2>About the channel</h2>
+    <p>Randomly Brilliant publishes short, curious and slightly sarcastic explainers about science, history and everyday mysteries. You can find it on <a href="https://www.youtube.com/channel/UCDWm15v95bQzzI4qk9wtvoQ">YouTube</a>.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this tool: <a href="mailto:ls5525734@gmail.com">ls5525734@gmail.com</a></p>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <span>© 2026 Randomly Brilliant</span>
+      <a href="terms.html">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </footer>
+</body>
+</html>
